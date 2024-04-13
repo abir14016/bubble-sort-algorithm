@@ -40,6 +40,29 @@ Let's consider an unsorted list: `[5, 3, 8, 4, 2]`
 
 Now, the list is sorted!
 
+## Complexity: O(n^2)
+
+## No. Of Passes: n-1
+
+## No. Of Comparisons: n*(n-1)/2
+
+## Advantages
+
+- **Simplicity**: Bubble Sort is easy to understand and implement.
+- **No Extra Space**: Bubble Sort sorts the array in place without requiring additional storage.
+  
+## Disadvantages
+
+- **Inefficiency**: Bubble Sort has a time complexity of \(O(n^2)\), making it inefficient for sorting large datasets.
+- **Not Suitable for Large Datasets**: Due to its poor performance on large datasets, it is not recommended for large-scale applications.
+
+## Application Areas
+
+- **Educational Purposes**: Bubble Sort is often used in educational settings to teach sorting algorithms due to its simplicity.
+- **Small Datasets**: It can be used for sorting small datasets where efficiency is not a concern.
+- **Testing**: Bubble Sort can be useful in testing scenarios where a simple sorting algorithm is required for verification purposes.
+
+
 ## Implementation
 
 The following C code demonstrates the Bubble Sort algorithm:
